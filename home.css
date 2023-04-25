@@ -1,0 +1,139 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.extra{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    border-color: lightgray;
+    margin-left: 7vmin;
+    
+}
+.main{
+    display: flex;
+    border: 1px solid;
+    border-color: lightgray;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    height: 61vh;
+}
+.photo{
+    height: 89vh;
+}
+.image{
+   margin-top: 5vmin;
+    width: 15vw;
+
+}
+.email{
+    margin-top: 2.3em;
+    border-radius: 2px;
+    border: 1px solid;  
+    border-color: lightgray;
+    padding: .7em;
+    width: 18vw;
+}
+.password{
+    margin-top: .4em;
+    border-radius: 2px;
+    border: 1px solid;  
+    border-color: lightgray;
+    padding: .7em;
+    width: 18vw;
+}
+.login{
+    margin-top: 2vmin;
+    background-color: #5d9dd1;
+    padding: .6em;
+    width: 19.5vw;
+    border-radius: 10px;
+    border: none;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    color: grey;
+    font-size: small;
+    width: 3vw;
+}
+.line3{
+    display: flex;
+    align-items: center;
+}
+.line1{
+    width: 8vw;
+    height: 0vh;
+    border: .2px solid; 
+    border-color: rgb(223, 221, 221);
+}
+.line2{
+    width: 7.5vw;
+    height: 0vh;
+    border: .2px solid;
+    border-color: rgb(223, 221, 221);
+
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+        
+}
+.fa-brands{
+    font-size: 3vmin;
+    margin: 1vw;
+}
+.with{
+    color: #3b5998 ;
+    font-weight: 550;
+    font-size: .85em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 6vh;
+    color: #3b5998 ;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+}
+.sign{
+    display: flex;
+    align-items: end;
+    border-color: lightgrey;
+    width: 25vw;
+    height: 11vh;
+    font-size: 1em;
+}
+.extra2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:9vh;
+    border: 1px solid;
+    border-color: lightgrey;
+    width: 25vw;
+}
+
