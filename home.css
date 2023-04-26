@@ -70,8 +70,11 @@
     align-items: center;
     height: 8vh;
     color: grey;
-    font-size: small;
+    font-size: smaller;
     width: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
 }
 .line3{
     display: flex;
@@ -124,7 +127,10 @@
     border-color: lightgrey;
     width: 25vw;
     height: 11vh;
-    font-size: 1em;
+    font-size: .9em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
 .extra2{
 
@@ -136,4 +142,27 @@
     border-color: lightgrey;
     width: 25vw;
 }
-
+.signup{
+    color: rgb(89, 146, 168) ;
+    font-weight: 550;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 5vh;
+    font-size: 2.3vmin;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+}
+.play{
+    width: 20vw;
+}
