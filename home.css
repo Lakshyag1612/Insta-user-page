@@ -166,3 +166,33 @@
 .play{
     width: 20vw;
 }
+.meta{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    
+}
+.meta3{
+  font-size: .9em;
+    width: 7vw;
+    color: rgb(136, 122, 122);
+}
+.meta2{
+    width:15vw;    
+    font-size: .9em;
+    color: rgb(136, 122, 122);
+}
+.meta1{
+    width: 3.5vw;
+    font-size: .9em;
+    color: rgb(136, 122, 122);
+}
+.meta4{
+    width: 5vw;
+  font-size: .9em;
+  color: rgb(136, 122, 122);
+}
+.google:hover{
+  cursor: pointer;
+}
