@@ -24,11 +24,15 @@
     border-color: lightgray;
     flex-direction: column;
     align-items: center;
-    width: 25vw;
+    width: 340px;
     height: 61vh;
 }
 .photo{
     height: 89vh;
+}
+.photo1{
+    background-color: #3b5998;
+    z-index: 1;
 }
 .image{
    margin-top: 5vmin;
@@ -123,6 +127,7 @@
 }
 .sign{
     display: flex;
+    justify-content: start;
     align-items: end;
     border-color: lightgrey;
     width: 25vw;
@@ -137,7 +142,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:9vh;
+    height:8vh;
     border: 1px solid;
     border-color: lightgrey;
     width: 25vw;
@@ -151,6 +156,7 @@
     justify-content: center;
     align-items: end;
     height: 5vh;
+    width: 25vw;
     font-size: 2.3vmin;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -170,29 +176,106 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 20vh;
+    height: 7vh;
     
 }
 .meta3{
   font-size: .9em;
-    width: 7vw;
+    width: 15vmin;
     color: rgb(136, 122, 122);
 }
 .meta2{
-    width:15vw;    
+    width:30vmin;    
     font-size: .9em;
     color: rgb(136, 122, 122);
 }
 .meta1{
-    width: 3.5vw;
+    width: 7vmin;
     font-size: .9em;
     color: rgb(136, 122, 122);
 }
 .meta4{
-    width: 5vw;
+    width: 10vmin;
   font-size: .9em;
   color: rgb(136, 122, 122);
 }
+
+.last{
+    display: flex;
+    justify-content: center;
+    width: 100vws;
+    height: 10vh;
+  color: rgb(136, 122, 122);
+}
+.dropdown{
+    width: 7vw;
+}
+#drop{
+    border: none;
+    color: rgb(136, 122, 122);
+}
 .google:hover{
   cursor: pointer;
+}
+.image:hover{
+    cursor: pointer;
+}
+.with:hover{
+    cursor: pointer;
+}
+.forgot:hover{
+    cursor: pointer;
+}
+.signup:hover{
+    cursor: pointer;
+}
+.meta:hover{
+    cursor: pointer;
+}
+.meta1:hover{
+    text-decoration: underline;
+}
+.meta2:hover{
+    text-decoration: underline;
+}
+.meta3:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 875px){
+.extra{
+    position: absolute;
+}
+.photo{
+    display: none;
+}
+.main{
+    width: 350px;
+}
+.image{
+    width: 25vw;
+}
+.email{
+    width: 30vw;
+}
+.password{
+    width: 30vw;
+}
+.login{
+    width: 30vw;
+}
+.sign{
+    width: 40vw;
+}
+.extra2{
+    width: 40vw;
+}
+.app{
+    width: 40vw;
+}
+.google{
+    width: 40vw;
+}
+.play{
+    width: 35vw;
+}
 }
